@@ -52,6 +52,28 @@ h1 {
 	margin: 0 auto;
 }
 
+#masthead {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: auto;
+  color: #fff;
+  background: #fff;
+  border-bottom: 2px solid #ccc;
+}
+
+#main-container {
+  padding-top: 130px;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+
 .mainLogo {
 		position: relative;
 		float: left;
@@ -103,8 +125,6 @@ nav ul li a {
 
 }
 
-
-
 .mainContent {
 	max-width: 650px;
 	border: 3px solid #dddddd;
@@ -132,36 +152,40 @@ article {
   color: #777777;
 }
 
-
 .work {
   position: relative;
   float: left;
-  width: 100%;
+  width: 47%;
   margin: 20px 0 25px;
   overflow: auto;
 }
+
 .work:nth-child(even) {
   /*margin-right: 40px;*/
 }
 
 .work img {
-  width: 100%;
-  border: 0 none;
+
+  border: 2px solid grey;
   opacity: 0.8;
+  margin: 3px;
+  width: 100%;
+
 }
+
 
 .work h3 {
   position: absolute;
   bottom: 20px;
   width: 100%;
   padding: 15px;
-  margin-bottom: 0;
+  margin: 3px;
   font-weight: 300;
   line-height: 30px;
   color: #fff;
   text-align: center;
   background: #4aaaa5;
-  border-bottom: 0;
+  border: 2px solid black;
 }
 
 .auth-image {
@@ -444,23 +468,26 @@ footer p {
 }
 
 .work img {
-  width: 100%;
-  border: 0 none;
+
+  border: 2px solid grey;
   opacity: 0.8;
+  margin: 3px;
+  width: 98%;
+
 }
 
 .work h3 {
   position: absolute;
   bottom: 20px;
-  width: 100%;
+  width: 98%;
   padding: 15px;
-  margin-bottom: 0;
+  margin: 3px;
   font-weight: 300;
   line-height: 30px;
   color: #fff;
   text-align: center;
   background: #4aaaa5;
-  border-bottom: 0;
+  border: 2px solid black;
 }
 
 .auth-image {
@@ -485,7 +512,144 @@ footer p {
 
 @media only screen and (max-width: 768px) {
 
+  .mainLogo {
+  		position: absolute;
+  		float: left;
+      margin-left: 12%;
+      /*margin: 10px 15px 30px 10px;*/
+      background-color: #4aaaa5;
+      color: #ffffff;
+      width: 30%;
+  		text-align: left;
+  }
+
+  #main-container {
+      padding-top: 85px;
+  }
+
+  h3, h2 {
+    text-align: left;
+    margin-left: 40px;
+  }
+
+  nav ul {
+    margin-right: 11%;
+    width: 300px;
+    text-align: left;
+  }
+
+  .contactLeft {
+    padding-right: 0px;
+    margin-right: 11%;
+
+  }
+
+section {
+  position: relative;
 }
+.mainContent {
+  width: 100%;
+  border: 3px solid #dddddd;
+  float: left;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+  .mainContent article {
+    float: left;
+    height: 300px;
+    width: 85%;
+    height: auto;
+    margin-left: 40px;
+    position: relative;
+    border-top: 2px solid #dddddd;
+  }
+
+  .work {
+    position: relative;
+    float: left;
+    width: 47%;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+
+  .work:nth-child(even) {
+    /*margin-right: 40px;*/
+  }
+
+  .work img {
+
+    border: 2px solid grey;
+    opacity: 0.8;
+    margin: 3px;
+    width: 100%;
+
+  }
+
+
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin: 3px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border: 2px solid black;
+  }
+  .mainContent p {
+  	text-align: left;
+  	/*margin-left: 20px;*/
+    margin-top: 25px;
+    color: #777777;
+  }
+
+  .mainContent h2 {
+  	text-align: left;
+  	margin-left: 40px;
+  	/*border-bottom-color: orange;*/
+  	/*z-index: 4;*/
+    width: 85%;
+    position: relative;
+  }
+
+  .mainContentimg {
+  	float: left;
+    width: 50%;
+  	/*margin-left: 20px;*/
+    margin-right: 20px;
+    margin-top: 25px;
+    max-width:100%;
+  }
+
+  .sideBar {
+    width: 100%;
+    text-align: left;
+}
+.sideBar article {
+
+    height: 135px;
+    width: 85%;
+    margin-right: 8%;
+    position: relative;
+    border-top: 2px solid #dddddd;
+
+}
+
+
+.sideBar article img {
+    float:left;
+    display: inline-block;
+    width: 64px;
+    height: auto;
+}
+/*.goodLord {
+  position: relative;
+  height: 65px;
+}*/
 
 @media only screen and (max-width: 640px) {
 
