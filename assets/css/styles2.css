@@ -713,9 +713,9 @@ article {
   }
 
   nav ul {
-  		margin: 0;
-      padding: 0;
-      text-align: right;
+    margin-left: 29%;
+    padding: 0;
+    text-align: left;
   }
 
   nav ul li {
@@ -731,10 +731,11 @@ article {
       line-height: 2em;
       padding: 0.5em 1em;
       text-decoration: none;
-      /*border-right: 2px solid #dddddd;*/
+      border-right: none;
       line-height: 5px;
-      height: 80%;
+      height: 100%;
       margin-top: 14%;
+      font-size: 1em;
   }
 
   .work {
