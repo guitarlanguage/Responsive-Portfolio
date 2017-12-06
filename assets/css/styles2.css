@@ -186,7 +186,7 @@ article {
   color: #fff;
   text-align: center;
   background: #4aaaa5;
-  border: 2px solid black;
+  /*border: 2px solid #dddddd;*/
 }
 
 .auth-image {
@@ -411,7 +411,6 @@ footer p {
       list-style-type: none;
       right-margin: 120px;
       right-padding: 500px;
-
   }
 
   nav ul li a {
@@ -488,7 +487,6 @@ footer p {
   color: #fff;
   text-align: center;
   background: #4aaaa5;
-  border: 2px solid black;
 }
 
 .auth-image {
@@ -599,7 +597,7 @@ section {
     color: #fff;
     text-align: center;
     background: #4aaaa5;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
   }
   .mainContent p {
   	text-align: left;
@@ -680,6 +678,19 @@ header {
     margin-top: 40px;
 }
 
+article {
+  /*float: left;*/
+  /*height: 300px;*/
+  width: 85%;
+  height: 700px;
+  margin-left: 40px;
+  position: relative;
+  border-top: 2px solid #dddddd;
+}
+.mainContent h2 {
+  /*border-bottom: 2px solid grey;*/
+}
+
   .mainLogo {
     position: static;
      float: left;
@@ -698,7 +709,7 @@ header {
       /*text-align: left;*/
   		/*float: center;*/
       height: 100%;
-      margin-left: 700px;
+      /*margin-left: 700px;*/
   }
 
   nav ul {
@@ -708,8 +719,10 @@ header {
   }
 
   nav ul li {
-  		display: inline-block;
-      list-style-type: none;
+  		/*display: inline-block;
+      list-style-type: none;*/
+      margin-left: auto;
+      margin-right: auto;
   }
 
   nav ul li a {
@@ -722,7 +735,42 @@ header {
       line-height: 5px;
       height: 80%;
       margin-top: 14%;
+  }
 
+  .work {
+    position: relative;
+    float: left;
+    width: 100%;
+      /*margin: 20px 0 25px;*/
+    overflow: auto;
+
+
+  }
+  .work:nth-child(even) {
+    /*margin-right: 40px;*/
+  }
+
+  .work img {
+
+    border: 2px solid grey;
+    opacity: 0.8;
+    margin: 3px;
+    width: 98%;
+
+  }
+
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 98%;
+    padding: 15px;
+    margin-left: 3px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    /*border: 1px solid #dddddd;*/
   }
 
 
