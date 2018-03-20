@@ -1,6 +1,10 @@
+@import url("reset.css");
+
 * {
   box-sizing: border-box;
   text-align: center;
+  /* Positioning */
+  margin: 0;
 }
 
 .clearfix::after {
@@ -27,6 +31,16 @@ header {
   width: 100%;
 	overflow: hidden;
 	margin-bottom: 35px;
+}
+.wrapper {
+  height: auto !important;
+  height: 100%;
+
+  /* Box-model */
+  min-height: 100%;
+
+  /* Positioning */
+  margin: 0 auto -100px;
 }
 
 #masthead {
@@ -96,14 +110,11 @@ h1 {
 }
 
 nav {
-    /*background-color: lightblue;*/
-    margin-top: 15px;
-		width: 35%;
-    overflow:hidden;
-    text-align: right;
-		float: right;
-    height: 100%;
-    margin-right: 0px;
+  /* Box-model */
+  float: right;
+
+  /* Positioning */
+  margin-top: 25px;
 }
 
 nav ul {
@@ -115,6 +126,17 @@ nav ul {
 nav ul li {
 		display: inline-block;
     list-style-type: none;
+      /* Box-model */
+  padding-left: 15px;
+
+  /* Positioning */
+  margin-left: 15px;
+
+  /* Typography */
+  line-height: 18px;
+
+  /* Visual */
+  border-left: 1px solid #efefef;
 }
 
 nav ul li a {
@@ -142,6 +164,8 @@ nav ul li a {
 	float: left;
   background-color: #ffffff;
   margin-bottom: 20px;
+  /* Box-model */
+  padding: 30px;
 
 }
 
