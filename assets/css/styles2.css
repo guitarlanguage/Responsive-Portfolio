@@ -29,6 +29,14 @@ header {
 	margin-bottom: 35px;
 }
 
+#masthead {
+  position: fixed;
+  z-index: 99;
+}
+.wrapper {
+  height: auto !important;
+  height: 100%;
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Georgia', Times, Times New Roman, serif;
@@ -40,11 +48,13 @@ h1 {
 }
 
 .container {
+  /* Box-model */
+  width: 100%;
   max-width: 960px;
-	/*background-color: lightblue;*/
-	/*border: solid black 2px;*/
-	margin-top: 20px;
-	margin: 0 auto;
+
+  /* Positioning */
+  margin: 0 auto;
+  clear: both;
 
 }
 .contentStructure {
@@ -244,9 +254,9 @@ article {
 
 .mainContentimg {
 	float: left;
-	/*margin-left: 20px;*/
-  margin-right: 20px;
-  margin-top: 25px;
+  /* Box-model */
+  width: 250px;
+  height: 90px;
 }
 
 .portfolioPics {
