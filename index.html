@@ -7,8 +7,6 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 	<title>Responsive-Portfolio-About</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
-	<!--<link rel="stylesheet" type="text/css" href="assets/css/style.css">-->
 	<link rel="stylesheet" type="text/css" href="assets/css/styles2.css">
 </head>
 
@@ -16,8 +14,8 @@
 	<div class="wrapper">
 
 		<header id="masthead">
-			<div class="container clearfix">
-				<a href="index.html"><img src="assets/images/IMG_NW_Bio.png" class="mainContentimg">Tom</a>				
+			<div class="container">
+				<a href="index.html" id="logo">Tom LaChance</a>				
 				<nav>
 					<ul>
 						<li><a href="index.html" target="_blank">About</a></li>
@@ -29,7 +27,10 @@
 		</header>
 
 		<main class="container">
-			<section class="mainContent clearfix">
+			<section class="main-section">
+				<h1>About Me</h1>
+				
+				<img src="assets/images/IMG_NW_Bio.png" class="auth-image" alt="profile picture">
 				<p>I play and teach the guitar. I also like to create. </p>
 				<p>You can find my
 					<a href="https://guitarlanguage.github.io/" target="_blank">Guitar Language Series</a> on youtube. Also, I enjoy playing hockey and hanging out with friends.</p>
@@ -40,23 +41,29 @@
 					elbow in June of 2017) I look forward to the challenge ahead with Northwestern's software development camp.</p>
 			</section>
 
-			<section class="sideBar clearfix">
+			<section class="sidebar">
 				<div id="connect">
-					<h3>Connect With Me</h3>
+					<h2>Connect With Me</h2>
 	
 					<ul>
 						<li><a href="https://github.com/guitarlanguage" target="_blank"><img src="assets/images/64x64/if_github_square_black_107109.png"></a></li>
 						<li><a href="https://www.linkedin.com/in/thomas-lachance-2287a917/" target="_blank"><img src="assets/images/64x64/if_linkedin_square_color_107091.png"></a></li>
 						<li><a href="https://stackoverflow.com/users/7602151/tom-lachance" target="_blank"><img src="assets/images/64x64/if_overflow_334695.png"></a></li>
 					</ul>
+
 				</div>
 			</section>
+			~
+		</main>
 
+		<div class="push"></div>
 
 	</div>
 
-	<footer class="clearfix">
-		<p>@ copyright 2017 Tom LaChance</p>
+	<footer>
+		<div class="container">
+			&copy; Copyright 2017 Tom LaChance
+		</div>
 	</footer>
 
 </body>
